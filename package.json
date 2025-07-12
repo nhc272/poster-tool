@@ -1,0 +1,17 @@
+{
+  "name": "poster-generator-backend",
+  "version": "1.0.0",
+  "description": "Server to render HTML to PNG for the poster tool.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "bash render-build.sh"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "puppeteer": "^22.10.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
